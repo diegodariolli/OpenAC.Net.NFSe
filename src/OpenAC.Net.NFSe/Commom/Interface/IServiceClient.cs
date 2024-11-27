@@ -103,5 +103,13 @@ public interface IServiceClient : IDisposable
     /// <returns></returns>
     string SubstituirNFSe(string? cabec, string msg);
 
+    /// <summary>
+    /// Método para gerar uma única NFSe de forma síncrona.
+    /// </summary>
+    /// <param name="cabec"></param>
+    /// <param name="msg"></param>
+    /// <returns></returns>
+    string GerarNfse(string cabec, string msg);
+
     #endregion Methods
 }

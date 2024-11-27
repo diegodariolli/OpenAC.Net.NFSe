@@ -71,5 +71,8 @@ public class IPM100ServiceClient : NFSeMultiPartClient, IServiceClient
 
     public string SubstituirNFSe(string cabec, string msg) => throw new NotImplementedException();
 
+    /// <inheritdoc />
+    public string GerarNfse(string cabec, string msg) => throw new NotImplementedException();
+
     #endregion Methods
 }
